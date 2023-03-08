@@ -1,0 +1,13 @@
+input[type="date"]::-webkit-calendar-picker-indicator {
+  display: none;
+}
+
+/* Add a custom icon as a background image */
+input[type="date"] {
+  padding-left: 30px;
+  margin-left: 10px;
+  background-image: url("../../../assets/images/calender.png");
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: 22px 22px;
+}
